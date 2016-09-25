@@ -1,0 +1,71 @@
+<!-- Header Implementation -->
+<div class="space"></div>	
+  <div class="topHeader">
+	<div class="innerHeader">
+		<div class="headerTxt">Hi,I am Mayank Nimje <hr/><span>Scroll to know more about me...</span></div>
+	</div>
+  </div>
+
+  <div class="headerNavBar">
+	<ul>
+		<li>About</li>
+		<li>My Skills</li>
+		<li>Experience</li>
+		<li>Education</li>
+		<li>Portfolio</li>
+		<li>Contact</li>
+		<li>BloG</li>
+	</ul>
+  </div>	
+  
+  <!-- Css for Header Implementation -->
+  
+  .topHeader{
+	width:300px;
+	height: 300px;
+	background: rgba(255,255,255,0.7);
+	border-radius: 150px;
+	margin:auto;
+}
+
+.innerHeader{
+	width: 288px;
+    height: 288px;
+	background: rgba(255,255,255,0.5);
+    border-radius: 170px;
+    margin-left: 25px;
+}
+.headerTxt{
+	padding: 70px 35px;
+    font-size: 22px;
+	font-style: italic;
+}
+
+.space{
+	height:10px;
+}
+.headerNavBar{
+	margin: auto;
+    width: 500px;
+    height: 35px;
+    background: white;
+    padding: 10px;
+    border-radius: 12px;
+	margin-top:40px;
+}
+.headerNavBar > ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.headerNavBar > ul > li{
+	float: left;
+    width: 70px;	
+}
+
+  
+  
+  
